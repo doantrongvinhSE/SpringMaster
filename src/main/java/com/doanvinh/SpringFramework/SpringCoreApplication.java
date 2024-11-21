@@ -1,5 +1,6 @@
 package com.doanvinh.SpringFramework;
 
+import com.doanvinh.SpringFramework.SpringCore.ComponentScan.Store;
 import com.doanvinh.SpringFramework.SpringCore.DI.Car;
 import com.doanvinh.SpringFramework.SpringCore.DI.Engine;
 import com.doanvinh.SpringFramework.Value_Annotation.ServerConfig;
@@ -34,6 +35,8 @@ public class SpringCoreApplication {
 		ServerConfig serverConfig = applicationContext.getBean(ServerConfig.class);
 		System.out.println(serverConfig);
 
+		Store store = applicationContext.getBean(Store.class);
+		System.out.println(store);
 
 
 	}
