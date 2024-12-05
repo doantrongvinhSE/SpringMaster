@@ -1,4 +1,4 @@
-package com.doanvinh.SpringFramework.Value_Annotation;
+package com.doanvinh.SpringFramework.SpringCore.Value_Annotation;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
